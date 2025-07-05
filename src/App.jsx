@@ -1,9 +1,13 @@
-import React from 'react';
-import "./App.css";
+import React from "react";
+import TraditionalModal from "./traditional-modal/TraditionalModal";
+import PortalModal from "./modal/portal-modal/PortalModal";
 
 function App() {
   return (
-    <div className="text-3xl text-teal-500 font-bold text-center mt-[100px]">React Portal</div>
+    <>
+      <TraditionalModal />
+      <PortalModal />
+    </>
   );
 }
 
